@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<speechrecognition>
+	<mode name="google_commands" paramsFile="params_google_commands.txt">
+		<command id="TakePicture" params="">
+			<mainToken>photo</mainToken>
+			<paramTokens>
+				<token>Take</token>
+				<token>Make</token>
+				<token>Shoot</token>
+				<token>Capture</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="TakePicture" params="">
+			<mainToken>picture</mainToken>
+			<paramTokens>
+				<token>Take</token>
+				<token>Make</token>
+				<token>Shoot</token>
+				<token>Capture</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="TakeVideo" params="start">
+			<mainToken>video</mainToken>
+			<paramTokens>
+				<token>Start</token>
+				<token>Take</token>
+				<token>Begin</token>
+				<token>Shoot</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="TakeVideo" params="stop">
+			<mainToken>video</mainToken>
+			<paramTokens>
+				<token>stop</token>
+				<token>end</token>
+				<token>finish</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Move" params="forward">
+			<mainToken>move</mainToken>
+			<paramTokens>
+				<token>forward</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Move" params="backward">
+			<mainToken>move</mainToken>
+			<paramTokens>
+				<token>backward</token>
+				<token>backwards</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Move" params="tleft">
+			<mainToken>turn</mainToken>
+			<paramTokens>
+				<token>left</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Move" params="tright">
+			<mainToken>turn</mainToken>
+			<paramTokens>
+				<token>right</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Move" params="stop">
+			<mainToken>stop</mainToken>
+			<paramTokens>
+				<token>moving</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Move" params="stop">
+			<mainToken>finish</mainToken>
+			<paramTokens>
+				<token>moving</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Mapping" params="start">
+			<mainToken>mapping</mainToken>
+			<paramTokens>
+				<token>start</token>
+				<token>begin</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Mapping" params="stop">
+			<mainToken>mapping</mainToken>
+			<paramTokens>
+				<token>stop</token>
+				<token>finish</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="FollowMe" params="">
+			<mainToken>follow</mainToken>
+			<paramTokens>
+				<token>me</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+	</mode>
+	<mode name="google_keyword" paramsFile="params_google_keyword.txt">
+		<command id="Hi" params="">
+			<mainToken>friday</mainToken>
+			<paramTokens>
+				<token>hi</token>
+			</paramTokens>
+			<files>
+				<file></file>
+			</files>
+		</command>
+		<command id="Hi" params="">
+			<mainToken>friday</mainToken>
+			<files>
+				<file></file>
+			</files>
+		</command>
+	</mode>
+</speechrecognition>

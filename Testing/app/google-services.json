@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "549915503289",
+    "firebase_url": "https://robotmobile-b7288.firebaseio.com",
+    "project_id": "robotmobile-b7288",
+    "storage_bucket": "robotmobile-b7288.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549915503289:android:5fcc07bd486c16acfc0968",
+        "android_client_info": {
+          "package_name": "com.robot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549915503289-p9prhgai5lsoldri7soavhasng5csmvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY28f-1pR_4oedr8tez9YxaZOfHdgImtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549915503289-p9prhgai5lsoldri7soavhasng5csmvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
