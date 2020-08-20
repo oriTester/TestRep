@@ -27,4 +27,3 @@ Readme for ROP Moblie Application
 
 * Repo owner or admin
 * Other community or team contact
-adding text test - 1
